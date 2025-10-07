@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/ChatGPT-Logo.svg/512px-ChatGPT-Logo.svg.png?20240214002031",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 1,
+    "description": "ChatGPT is an advanced AI conversational agent developed by OpenAI. It utilizes a large language model to generate human-like text responses, making it a versatile tool for a wide range of applications. Users can engage in interactive conversations, seek information, and even receive assistance with various tasks. The app's ability to understand context and provide coherent responses has made it a popular choice for those seeking AI-driven assistance. Whether you're looking for information, creative writing, or just a casual chat, ChatGPT offers a seamless and engaging experience.",
+    "size": 100,
+    "reviews": 1500000,
+    "ratingAvg": 4.8,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 300000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Tiktok_icon.svg/768px-Tiktok_icon.svg.png",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 2,
+    "description": "TikTok is a social media platform that allows users to create, share, and discover short-form videos. With its easy-to-use editing tools and a vast library of music and effects, TikTok has become a hub for creativity and entertainment. The app's algorithm curates a personalized feed based on user interactions, making it addictive and engaging. From dance challenges to comedic skits, TikTok offers a diverse range of content that appeals to a global audience. Its viral trends and challenges have made it a cultural phenomenon.",
+    "size": 150,
+    "reviews": 2000000,
+    "ratingAvg": 4.7,
+    "downloads": 700000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 400000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/1024px-WhatsApp_logo-color-vertical.svg.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "id": 3,
+    "description": "WhatsApp Messenger is a free messaging application that allows users to send text messages, voice messages, make audio and video calls, and share multimedia content. It uses the internet to send messages, making it a cost-effective alternative to traditional SMS. WhatsApp's end-to-end encryption ensures that messages are secure and private. The app supports group chats, file sharing, and status updates, making it a versatile tool for personal and professional communication. Its user-friendly interface and wide adoption have made it one of the most popular messaging apps worldwide.",
+    "size": 120,
+    "reviews": 1800000,
+    "ratingAvg": 4.6,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1100000 },
+      { "name": "5 star", "count": 400000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/960px-Instagram-Icon.png?20230822013318",
+    "title": "Instagram",
+    "companyName": "Instagram, Inc.",
+    "id": 4,
+    "description": "Instagram is a photo and video-sharing social networking service owned by Facebook. It allows users to take photos and videos, apply filters, and share them on their profile or with friends. Instagram also offers features like Stories, Reels, and IGTV, providing users with multiple ways to share content. The app's algorithm curates a personalized feed based on user interactions, ensuring that users see content that interests them. With its focus on visual content, Instagram has become a platform for influencers, brands, and creatives to showcase their work and connect with audiences.",
+    "size": 130,
+    "reviews": 1700000,
+    "ratingAvg": 4.5,
+    "downloads": 750000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 450000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Google_Maps_icon_%282015-2020%29.svg/1024px-Google_Maps_icon_%282015-2020%29.svg.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "Google Maps is a mapping service that provides real-time GPS navigation, traffic conditions, route planning, and local business information. It offers turn-by-turn navigation for driving, walking, biking, and public transportation. Users can explore places, read reviews, and find directions to their destination. Google Maps also includes features like Street View, which allows users to virtually explore locations, and offline maps, which enable navigation without an internet connection. Its comprehensive data and user-friendly interface have made it an essential tool for travelers and commuters alike.",
+    "size": 110,
+    "reviews": 1600000,
+    "ratingAvg": 4.8,
+    "downloads": 900000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 350000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/1024px-2023_Facebook_icon.svg.png",
+    "title": "Facebook",
+    "companyName": "Facebook, Inc.",
+    "id": 6,
+    "description": "Facebook is a social networking service that allows users to connect with friends and family, share updates, and discover what's happening around the world. Users can post status updates, photos, and videos, and interact with others through likes, comments, and shares. Facebook also offers features like Marketplace for buying and selling items, and Groups for community discussions. The platform's algorithm curates a personalized feed based on user interactions, ensuring that users see content that interests them. With its wide reach and diverse user base, Facebook remains a dominant force in social networking.",
+    "size": 140,
+    "reviews": 1900000,
+    "ratingAvg": 4.4,
+    "downloads": 850000000,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1300000 },
+      { "name": "5 star", "count": 500000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/640px-YouTube_full-color_icon_%282017%29.svg.png",
+    "title": "YouTube",
+    "companyName": "YouTube, LLC",
+    "id": 7,
+    "description": "YouTube is a video-sharing platform where users can upload, view, and share videos. It offers a vast library of content, including music videos, tutorials, vlogs, and more. Users can subscribe to channels, like and comment on videos, and create playlists. YouTube's algorithm recommends videos based on user preferences, ensuring a personalized viewing experience. The platform also offers live streaming, allowing creators to broadcast events in real-time. With its wide range of content and global reach, YouTube has become the go-to platform for video entertainment and information.",
+    "size": 150,
+    "reviews": 2200000,
+    "ratingAvg": 4.7,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1400000 },
+      { "name": "5 star", "count": 600000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/2024_Spotify_logo_without_text.svg/960px-2024_Spotify_logo_without_text.svg.png?20240618225721",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 8,
+    "description": "Spotify is a leading music streaming service offering millions of songs, albums, and podcasts from all over the world. Users can listen for free with ads or subscribe to a premium plan for an ad-free experience, offline listening, and higher audio quality. Spotify's algorithm curates personalized playlists like Discover Weekly and Daily Mix based on users' listening habits, making music discovery seamless and enjoyable.\n\nThe platform also allows users to create, share, and follow playlists, connecting with friends and exploring popular tracks. Podcasts and audio shows add variety to the experience, offering educational, entertaining, and cultural content.\n\nSpotify is accessible across devices including smartphones, tablets, and desktops, making it a versatile tool for music lovers. Its combination of personalization, wide content library, and social features has cemented its position as one of the most popular and influential music apps globally.",
+    "size": 140,
+    "reviews": 1800000,
+    "ratingAvg": 4.7,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 400000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "title": "Telegram",
+    "companyName": "Telegram Messenger LLP",
+    "id": 9,
+    "description": "Telegram is a cloud-based messaging app focused on speed and security. It allows users to send text messages, multimedia files, and make voice and video calls. Telegram supports group chats, channels, and bots, making it versatile for both personal and professional communication.\n\nIts security features include end-to-end encryption for secret chats and self-destructing messages. Telegram also allows large file sharing and cross-platform synchronization, ensuring seamless communication across devices.\n\nWith its commitment to privacy, speed, and flexibility, Telegram has become popular worldwide, appealing to users who value secure messaging and collaborative tools.",
+    "size": 120,
+    "reviews": 1500000,
+    "ratingAvg": 4.6,
+    "downloads": 700000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 350000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Snapchat_logo.svg/1024px-Snapchat_logo.svg.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 10,
+    "description": "Snapchat is a multimedia messaging app known for its ephemeral content. Users can send photos and videos that disappear after being viewed, add creative filters, and share Stories visible for 24 hours.\n\nThe app offers chat, video calls, and Discover content, where users can explore news, entertainment, and trending topics. Snapchat also incorporates augmented reality features and interactive lenses, enhancing user engagement.\n\nIts innovative approach to social media and emphasis on fun, creative expression have made Snapchat especially popular among younger audiences, offering a unique and engaging communication experience.",
+    "size": 130,
+    "reviews": 1250000,
+    "ratingAvg": 4.4,
+    "downloads": 550000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 220000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 270000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/1024px-X_logo_2023.svg.png",
+    "title": "Twitter",
+    "companyName": "X Corp.",
+    "id": 11,
+    "description": "Twitter is a microblogging platform that allows users to post and interact with short messages called tweets. It provides real-time updates on news, entertainment, and social conversations.\n\nThe platform supports text, images, videos, and polls, enabling users to express themselves in multiple formats. Twitter Spaces allow live audio conversations, while verified accounts ensure authenticity.\n\nWith millions of users worldwide, Twitter remains a central hub for public discourse, trending topics, and instant communication. Its concise format encourages fast information sharing and engagement across diverse communities.",
+    "size": 110,
+    "reviews": 1150000,
+    "ratingAvg": 4.2,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 750000 },
+      { "name": "5 star", "count": 250000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 12,
+    "description": "Netflix is a streaming service offering a vast library of movies, TV shows, and documentaries. Users can watch content on-demand with recommendations tailored to their viewing habits.\n\nIt supports offline downloads, multiple profiles, and high-definition streaming, enhancing user convenience. Netflix produces original content, including series and films exclusive to the platform.\n\nWith its global reach and diverse catalog, Netflix has transformed entertainment consumption, providing a personalized and accessible viewing experience for millions of subscribers.",
+    "size": 160,
+    "reviews": 1450000,
+    "ratingAvg": 4.7,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 400000 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/previews/012/871/376/non_2x/zoom-logo-in-blue-colors-meetings-app-logotype-illustration-free-png.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 13,
+    "description": "Zoom is a video conferencing platform widely used for business and personal communication. It supports virtual meetings, webinars, and team collaboration with features like screen sharing, recording, and chat.\n\nUsers can host meetings with large groups, integrate with calendars, and utilize breakout rooms for smaller discussions. Zoom also offers mobile and desktop accessibility, ensuring reliable communication from anywhere.\n\nIts ease of use, reliability, and comprehensive features have made Zoom an essential tool for remote work, education, and social interaction, supporting seamless virtual collaboration globally.",
+    "size": 130,
+    "reviews": 1200000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 350000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Uber_App_Icon.svg/1024px-Uber_App_Icon.svg.png",
+    "title": "Uber",
+    "companyName": "Uber Technologies",
+    "id": 14,
+    "description": "Uber is a ride-hailing app connecting passengers with drivers through a mobile platform. Users can request rides, track drivers in real-time, and pay via the app for convenience and safety.\n\nUber offers multiple ride options, from economy to premium, as well as services like Uber Eats for food delivery. The app provides fare estimates, ratings for drivers and passengers, and a reliable support system.\n\nIts global presence and innovative features have revolutionized urban transportation, offering flexible mobility solutions for millions of users around the world.",
+    "size": 140,
+    "reviews": 1100000,
+    "ratingAvg": 4.4,
+    "downloads": 450000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 300000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_Bélo.svg",
+    "title": "Airbnb",
+    "companyName": "Airbnb, Inc.",
+    "id": 15,
+    "description": "Airbnb is a platform for booking accommodations and experiences worldwide. Users can list their homes or find unique stays, including apartments, villas, and boutique properties.\n\nThe app features secure payments, reviews, and communication tools to ensure safe and reliable transactions. Airbnb Experiences offer activities hosted by locals, providing immersive travel experiences.\n\nWith its global network and innovative approach to travel, Airbnb has transformed the way people discover, book, and enjoy accommodations and experiences, making it easier to travel and explore.",
+    "size": 150,
+    "reviews": 1050000,
+    "ratingAvg": 4.6,
+    "downloads": 400000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 300000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/TinderIcon-2017.svg/512px-TinderIcon-2017.svg.png?20171226122653",
+    "title": "Tinder",
+    "companyName": "Tinder, Inc.",
+    "id": 16,
+    "description": "Tinder is a dating app that allows users to find potential matches based on location and preferences. Users swipe right to like and left to pass on profiles, facilitating quick connections.\n\nPremium features such as unlimited swipes, passport mode, and Boost increase visibility and engagement. Tinder also supports messaging for mutual matches, making it easier to communicate and build connections.\n\nWith its simple interface and global reach, Tinder has become one of the most popular dating platforms, revolutionizing how people meet and interact in the digital age.",
+    "size": 120,
+    "reviews": 950000,
+    "ratingAvg": 4.3,
+    "downloads": 350000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 250000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Google_Photos_icon_%282015-2020%29.svg/1024px-Google_Photos_icon_%282015-2020%29.svg.png",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "id": 17,
+    "description": "Google Photos is a photo and video storage service that automatically backs up media to the cloud. Users can organize, edit, and share their memories with ease.\n\nFeatures include smart search, automatic album creation, facial recognition, and video editing. Users can also share albums with friends and family for collaboration.\n\nIts cloud-based storage, AI-powered organization, and cross-device accessibility make Google Photos a convenient solution for preserving and enjoying digital memories.",
+    "size": 130,
+    "reviews": 1000000,
+    "ratingAvg": 4.7,
+    "downloads": 400000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 350000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1024px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 18,
+    "description": "Microsoft Teams is a collaboration platform that integrates chat, video meetings, file storage, and application integration. It is widely used for business communication and remote work.\n\nTeams allows users to organize channels for projects, schedule meetings, and collaborate on documents in real-time. Notifications and integration with Microsoft 365 enhance productivity.\n\nWith its robust features and secure environment, Microsoft Teams enables effective communication and teamwork, supporting organizations in managing workflows and connecting employees across the globe.",
+    "size": 150,
+    "reviews": 900000,
+    "ratingAvg": 4.5,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 250000 }
+    ]
+  },
+  {
+    "image": "https://brandlogos.net/wp-content/uploads/2021/11/capcut_app-logo_brandlogos.net_b5nrj.png",
+    "title": "CapCut",
+    "companyName": "ByteDance Ltd.",
+    "id": 19,
+    "description": "CapCut is a free video editing app designed for mobile devices, providing tools to cut, merge, reverse, and add effects to videos. Users can create professional-looking content with music, transitions, and text overlays.\n\nThe app supports exporting in various resolutions and sharing directly to social media platforms like TikTok, Instagram, and YouTube. Templates and intuitive editing tools make it accessible to both beginners and advanced users.\n\nCapCut’s popularity stems from its ease of use, rich feature set, and direct integration with social media, enabling creators to produce engaging video content quickly and efficiently.",
+    "size": 110,
+    "reviews": 1400000,
+    "ratingAvg": 4.5,
+    "downloads": 650000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 950000 },
+      { "name": "5 star", "count": 350000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Threads_%28app%29_logo.svg/512px-Threads_%28app%29_logo.svg.png?20230705004747",
+    "title": "Threads",
+    "companyName": "Instagram, Inc.",
+    "id": 20,
+    "description": "Threads is a messaging app developed by Instagram that focuses on close connections. Users can share text, photos, and videos with a dedicated group of friends, emphasizing privacy and intimacy.\n\nThe app integrates with Instagram, allowing for seamless sharing and updates. Users can create status updates and interact with friends in a fast, streamlined interface.\n\nThreads is designed for private communication among close friends, providing a social experience that is more personal than traditional platforms, while maintaining Instagram’s ecosystem and user base.",
+    "size": 100,
+    "reviews": 1300000,
+    "ratingAvg": 4.3,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 850000 },
+      { "name": "5 star", "count": 300000 }
+    ]
+  }
+]
