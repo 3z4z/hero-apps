@@ -56,7 +56,7 @@ Built with React, Vite and DaisyUI, Hero Apps provides a smooth, fast, and visua
 Clone and install dependencies:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/3z4z/hero-apps.git
 cd hero-apps
 npm install
 npm run dev
