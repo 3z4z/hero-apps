@@ -67,7 +67,7 @@ export default function FooterComponent() {
               <li key={index} className="mb-3 last:mb-0">
                 <a
                   href="#"
-                  className="block text-gray-400 hover:text-white transition hover:translate-x-2"
+                  className="inline-block text-gray-400 hover:text-white transition hover:translate-x-2"
                 >
                   {link.title}
                 </a>
@@ -82,7 +82,7 @@ export default function FooterComponent() {
               <li key={index} className="mb-3 last:mb-0">
                 <a
                   href="#"
-                  className="block text-gray-400 hover:text-white transition hover:translate-x-2"
+                  className="inline-block text-gray-400 hover:text-white transition hover:translate-x-2"
                 >
                   {link.title}
                 </a>
