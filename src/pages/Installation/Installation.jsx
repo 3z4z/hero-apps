@@ -15,7 +15,7 @@ export default function InstallationPage() {
     setInstalledApps(getInstalledApps());
   };
   return (
-    <div className="mt-10 mb-20">
+    <div className="mt-10 mb-20 max-w-[1440px] mx-auto px-3 w-full ">
       <SectionTitleComponent
         title={"Your Installed Apps"}
         subtitle={"Explore All Trending Apps on the Market developed by us"}

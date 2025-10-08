@@ -16,7 +16,7 @@ export default function BannerComponent() {
     },
   ];
   return (
-    <div className="flex flex-col items-center text-center mt-20">
+    <div className="flex flex-col items-center text-center mt-20 max-w-[1440px] mx-auto px-3 w-full ">
       <p className="font-extrabold lg:text-7xl sm:text-6xl text-4xl text-gray-900">
         <span>We Build</span>
         <br />

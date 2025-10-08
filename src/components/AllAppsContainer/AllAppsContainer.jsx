@@ -20,7 +20,7 @@ export default function AllAppsContainerComponent() {
   }, [allApps, isHomeRoute]);
 
   return (
-    <>
+    <div className="max-w-[1440px] mx-auto px-3 w-full ">
       {!isHomeRoute ? (
         <AllAppsTopBarComponent apps={apps} setApps={setApps} />
       ) : null}
@@ -46,6 +46,6 @@ export default function AllAppsContainerComponent() {
           </Link>
         </div>
       ) : null}
-    </>
+    </div>
   );
 }

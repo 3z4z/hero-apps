@@ -24,7 +24,7 @@ function App() {
       <div className="flex flex-col min-h-dvh bg-gray-100">
         <NavbarComponent />
         <InstalledAppsContext value={[installedApps, setInstalledApps]}>
-          <div className="max-w-[1440px] mx-auto px-3 w-full grow">
+          <div className="grow">
             {isLoading ? <LoaderComponent /> : <Outlet context={{ allApps }} />}
           </div>
         </InstalledAppsContext>
