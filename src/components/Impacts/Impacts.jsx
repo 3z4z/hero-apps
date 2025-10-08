@@ -16,14 +16,20 @@ export default function ImpactsComponent() {
   ];
   return (
     <div className={`py-20 ${gradientPrimaryBg} rounded-md text-center mb-20`}>
-      <p className="font-bold text-5xl mb-12">
-        Trusted by Millions, Built for You
+      <p className="font-bold md:text-5xl text-4xl mb-12 px-3">
+        Trusted by Millions,
+        <span className="sm:ms-2 sm:inline-block block">Built for You</span>
       </p>
-      <div className="grid grid-cols-3">
+      <div className="grid md:grid-cols-3 md:gap-0 gap-10">
         {impacts.map((impact, index) => (
-          <div key={index} className="flex flex-col items-center gap-4">
-            <p className="text-gray-300">{impact.title}</p>
-            <p className="font-extrabold text-6xl">{impact.count}</p>
+          <div
+            key={index}
+            className="flex flex-col items-center md:gap-4 gap-1"
+          >
+            <p className="text-gray-300 mb-3 md:mb-0">{impact.title}</p>
+            <p className="font-extrabold lg:text-6xl md:text-5xl text-3xl">
+              {impact.count}
+            </p>
             <p className="text-gray-300">{impact.comment}</p>
           </div>
         ))}

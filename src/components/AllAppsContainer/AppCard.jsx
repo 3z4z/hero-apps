@@ -15,16 +15,16 @@ export default function AppCardComponent({ app }) {
       onClick={() => handleApp(app)}
       className="rounded-sm shadow-md cursor-pointer p-4 bg-white hover:shadow-xl transition"
     >
-      <figure className="aspect-square rounded-sm bg-gray-200 w-full flex items-center justify-center p-10">
+      <figure className="aspect-square rounded-sm bg-gray-200 w-full flex items-center justify-center sm::p-10 p-6">
         <img src={image} alt={title} className="h-full object-contain" />
       </figure>
-      <h5 className="my-4 font-medium text-xl">{title}</h5>
-      <div className="flex justify-between">
-        <div className="badge badge-lg items-center badge-soft badge-success font-medium">
+      <h5 className="my-4 font-medium md:text-xl text-lg">{title}</h5>
+      <div className="flex justify-between flex-wrap gap-2">
+        <div className="badge md:badge-lg items-center badge-soft badge-success font-medium">
           <BsDownload />
           <span>{numberFormat(downloads)}</span>
         </div>
-        <div className="badge badge-lg items-center badge-soft badge-warning font-medium">
+        <div className="badge md:badge-lg items-center badge-soft badge-warning font-medium">
           <BsStar />
           <span>{ratingAvg}</span>
         </div>

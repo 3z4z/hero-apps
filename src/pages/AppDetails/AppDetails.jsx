@@ -13,10 +13,25 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import { useContext } from "react";
+import { InstalledAppsContext } from "../../contexts/InstalledAppsContext";
+import { addInstalledApps, getInstalledApps } from "../../utils/localStorage";
+import { BiCheck } from "react-icons/bi";
+import { toast } from "react-toastify";
+import {
+  toastErrorConfig,
+  toastSuccessConfig,
+} from "../../configs/toastConfigs";
+import ErrorAppPage from "../ErrorApp/ErrorApp";
 
 export default function AppDetailsPage() {
+  const [, setInstalledApps] = useContext(InstalledAppsContext);
   const { appSlug } = useParams();
   const { allApps } = useOutletContext();
+  const isValidRoute = allApps.some((app) => slugify(app.title) === appSlug);
+  if (!isValidRoute) {
+    return <ErrorAppPage />;
+  }
   const detailApp = allApps.find((app) => slugify(app.title) === appSlug);
   const {
     image,
@@ -29,63 +44,89 @@ export default function AppDetailsPage() {
     reviews,
     description,
   } = detailApp;
-  console.log(ratings);
+  const isInstalled = getInstalledApps().find((app) => app.id === detailApp.id);
   return (
     <div className="pt-10 pb-20">
-      <div className="flex gap-10">
-        <figure className="aspect-square max-h-[21.875rem] bg-white rounded-md shadow-lg flex items-center justify-center p-8">
-          <img src={image} alt="" className="object-contain w-full" />
+      <div className="flex sm:flex-row flex-col gap-10">
+        <figure className="sm:w-auto w-fit aspect-square xl:max-h-[21.875rem] lg:max-h-56 max-h-48 bg-white rounded-md shadow-lg flex items-center justify-center p-8">
+          <img src={image} alt="" className="object-contain md:w-full" />
         </figure>
         <div className="flex flex-col justify-between grow">
           <div>
-            <h1 className="font-bold text-[2rem] text-gray-900 mb-2">
-              {title}
-            </h1>
-            <p>
-              <span className="text-gray-500">Developed by</span>
-              <span className={`${gradientText} ms-1.5 font-bold`}>
-                {companyName}
-              </span>
-            </p>
-            <div className="mt-8 pt-8 border-t border-t-gray-300 flex items-end gap-7">
+            <div className="flex lg:flex-col sm:flex-row flex-col lg:items-start sm:items-center">
+              <h1 className="font-bold text-[2rem] text-gray-900 mb-2">
+                {title}
+              </h1>
+              <p className="lg:ms-0 sm:ms-3">
+                <span className="text-gray-500">Developed by</span>
+                <span className={`${gradientText} ms-1.5 font-bold`}>
+                  {companyName}
+                </span>
+              </p>
+            </div>
+            <div className="xl:mt-8 xl:pt-8 mt-4 pt-4 border-t border-t-gray-300 flex sm:flex-nowrap flex-wrap items-end gap-7">
               <div className="flex items-center gap-3">
                 <figure>
-                  <img src={downloadIcon} alt="" />
+                  <img src={downloadIcon} className="lg:w-auto w-7" alt="" />
                 </figure>
                 <h2>
                   <p className="text-gray-600">Downloads</p>
-                  <p className="text-gray-900 font-extrabold text-4xl">
+                  <p className="text-gray-900 font-extrabold xl:text-4xl lg:text-2xl text-lg">
                     {numberFormat(downloads)}
                   </p>
                 </h2>
               </div>
               <div className="flex items-center gap-3">
                 <figure>
-                  <img src={ratingsIcon} alt="" />
+                  <img src={ratingsIcon} className="lg:w-auto w-7" alt="" />
                 </figure>
                 <h2>
                   <p className="text-gray-600">Ratings</p>
-                  <p className="text-gray-900 font-extrabold text-4xl">
+                  <p className="text-gray-900 font-extrabold xl:text-4xl lg:text-2xl text-lg">
                     {ratingAvg}
                   </p>
                 </h2>
               </div>
               <div className="flex items-center gap-3">
                 <figure>
-                  <img src={reviewsIcon} alt="" />
+                  <img src={reviewsIcon} className="lg:w-auto w-7" alt="" />
                 </figure>
                 <h2>
                   <p className="text-gray-600">Reviews</p>
-                  <p className="text-gray-900 font-extrabold text-4xl">
+                  <p className="text-gray-900 font-extrabold xl:text-4xl lg:text-2xl text-lg">
                     {numberFormat(reviews)}
                   </p>
                 </h2>
               </div>
             </div>
           </div>
-          <div>
-            <button className="btn btn-success text-white h-auto py-3 px-5">
-              Install Now ({size} MB)
+          <div className="sm:mt-0 mt-6">
+            <button
+              className={`btn  h-auto py-3 px-5 ${
+                isInstalled ? "" : "btn-success text-white"
+              }`}
+              onClick={() => (
+                setInstalledApps(getInstalledApps()),
+                addInstalledApps(detailApp),
+                !isInstalled
+                  ? toast.success(
+                      `${detailApp.title} has been installed successfully!`,
+                      toastSuccessConfig
+                    )
+                  : toast.error(
+                      `${detailApp.title} already installed!`,
+                      toastErrorConfig
+                    )
+              )}
+            >
+              {isInstalled ? (
+                <>
+                  <BiCheck className="w-6 h-6 me-2" />
+                  <span>Installed</span>
+                </>
+              ) : (
+                `Install Now (${size} MB)`
+              )}
             </button>
           </div>
         </div>

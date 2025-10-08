@@ -10,7 +10,6 @@ export const router = createBrowserRouter([
   {
     path: "",
     Component: App,
-    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
@@ -27,6 +26,10 @@ export const router = createBrowserRouter([
       {
         path: "apps/:appSlug",
         Component: AppDetailsPage,
+      },
+      {
+        path: "*",
+        Component: ErrorPage,
       },
     ],
   },

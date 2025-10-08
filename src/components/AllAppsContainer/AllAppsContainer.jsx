@@ -20,9 +20,11 @@ export default function AllAppsContainerComponent() {
 
   return (
     <>
-      {!isHomeRoute ? <AllAppsTopBarComponent apps={apps} /> : null}
+      {!isHomeRoute ? (
+        <AllAppsTopBarComponent apps={apps} setApps={setApps} />
+      ) : null}
       <div
-        className={`grid grid-cols-4 gap-4 ${
+        className={`grid lg:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-4 ${
           isHomeRoute ? "mt-1 mb-10" : "mt-8 mb-20"
         }`}
       >
