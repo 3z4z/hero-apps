@@ -2,9 +2,8 @@ import { useEffect, useState } from "react";
 import InstalledAppComponent from "../../components/InstalledApp/InstalledApp";
 import SectionTitleComponent from "../../components/SectionTitle/SectionTitle";
 import { getInstalledApps, removeInstalledApp } from "../../utils/localStorage";
-import { gradientPrimaryBg } from "../../utils/classNames";
-import { Link } from "react-router";
 import InstallAppsTopBarComponent from "../../components/InstallAppsTopBar/InstallAppsTopBar";
+import AppNotFoundComponent from "../../components/AppNotFound/AppNotFound";
 
 export default function InstallationPage() {
   const [installedApps, setInstalledApps] = useState([]);
@@ -41,14 +40,7 @@ export default function InstallationPage() {
           </div>
         </>
       ) : (
-        <div className="rounded-sm bg-gray-200 py-10 px-4 flex items-center flex-col gap-3">
-          <span className="text-red-600 font-medium text-xl">
-            No App installed!
-          </span>
-          <Link to={"/apps"} className={`btn ${gradientPrimaryBg}`}>
-            Find Apps
-          </Link>
-        </div>
+        <AppNotFoundComponent bodyText={"No Apps Installed!"} />
       )}
     </div>
   );
