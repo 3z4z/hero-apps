@@ -46,7 +46,7 @@ export default function AppDetailsPage() {
   } = detailApp;
   const isInstalled = getInstalledApps().find((app) => app.id === detailApp.id);
   return (
-    <div className="pt-10 pb-20">
+    <div className="pt-10 pb-20 max-w-[1440px] mx-auto px-3 w-full">
       <div className="flex sm:flex-row flex-col gap-10">
         <figure className="sm:w-auto w-fit aspect-square xl:max-h-[21.875rem] lg:max-h-56 max-h-48 bg-white rounded-md shadow-lg flex items-center justify-center p-8">
           <img src={image} alt="" className="object-contain md:w-full" />
@@ -102,8 +102,9 @@ export default function AppDetailsPage() {
           </div>
           <div className="sm:mt-0 mt-6">
             <button
+              disabled={isInstalled}
               className={`btn  h-auto py-3 px-5 ${
-                isInstalled ? "" : "btn-success text-white"
+                isInstalled ? "text-gray-600" : "btn-success text-white"
               }`}
               onClick={() => (
                 setInstalledApps(getInstalledApps()),
